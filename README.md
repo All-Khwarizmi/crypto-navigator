@@ -1,100 +1,112 @@
-# CryptoNavigator 🧭
+# BlockchainNavigator 🧭
 
-## Overview
-CryptoNavigator is an AI-powered Telegram bot that helps users navigate the complex world of cryptocurrency purchases and transfers. Built during the Mode AI Agent Hackathon, it aims to simplify the process of finding and transferring cryptocurrencies across different networks.
+> "Where can I buy this token?"
+> "How do I move my assets across chains?"
+> "What wallets do I need?"
 
-### 🌟 Key Features
-- Find where to buy specific cryptocurrencies
-- Guide through transfer processes
-- Validate wallet addresses
-- Check balances on Mode Network
-- Provide step-by-step instructions
+## Vision
 
-### 🛠 Tech Stack
-- Eliza Framework for AI agent capabilities
-- GOAT (Great Onchain Agent Toolkit) for blockchain interactions
+BlockchainNavigator transforms the complexity of cross-chain navigation into an educational journey. Instead of trying to abstract away blockchain complexity like most solutions, we embrace it and make it understandable.
+
+## Problem
+
+The blockchain ecosystem grows more complex every day:
+
+- Multiple chains and Layer 2s
+- Different wallet requirements
+- Various exchanges and bridges
+- Complex transfer requirements
+
+This complexity is often seen as a problem. We see it as an opportunity for education.
+
+## Solution
+
+Think Google Maps for blockchain - but instead of just showing the route, we teach you how to navigate it:
+
+🗺️ **Visual Route Mapping**
+
+- Clear path visualization
+- Required wallets and accounts
+- Step-by-step guidance
+
+📚 **Educational Layer**
+
+- Learn while doing
+- Security checkpoints
+- Best practices
+
+🔍 **Route Finding**
+
+- Common token paths
+- Exchange requirements
+- Cost estimation
+
+## Key Differentiators
+
+- **Education First**: Turn complexity into learning opportunity
+- **Visual Learning**: Map-based interface for intuitive understanding
+- **Progressive Complexity**: Start simple, reveal depth as needed
+- **Real Utility**: Solve immediate needs while building knowledge
+
+## MVP Focus
+
+Phase 1: Route Finding & Education
+
+- Popular token path mapping
+- Basic visual route representation
+- Essential wallet/exchange requirements
+- Core educational content
+
+## Technical Stack
+
+- Next.js + TypeScript
+- React Flow for visualizations
 - Mode Network integration
-- Telegram Bot API
-- TypeScript
+- CoinGecko API for token data
 
-## 🚀 Getting Started
+## Project Status
 
-### Prerequisites
-- Node.js (v23+)
-- pnpm
-- Telegram Bot Token
-- Mode Network Private Key
+Currently in development with focus on:
 
-### Installation
-```bash
-# Clone the repository
-git clone [your-repo-url]
-cd crypto-navigator
+1. Core route mapping engine
+2. Basic visual interface
+3. Educational content structure
 
-# Install dependencies
-pnpm install
+## Roadmap
 
-# Configure environment variables
-cp .env.example .env
-```
+- [ ] Basic route visualization
+- [ ] Common token paths
+- [ ] Interactive requirements checker
+- [ ] Educational content integration
+- [ ] Price comparison features
+- [ ] Advanced route optimization
 
-### Environment Variables
-```env
-MODE_PRIVATE_KEY=your_mode_network_private_key
-MODE_PROVIDER_URL=https://mainnet.mode.network
-TELEGRAM_BOT_TOKEN=your_telegram_bot_token
-```
+## Target Users
 
-### Running the Bot
-```bash
-pnpm start
-```
+1. Crypto Newcomers
 
-## 🤖 Usage Examples
-1. Finding where to buy tokens:
-   ```
-   User: "How do I buy TON?"
-   Bot: *Provides list of available exchanges and step-by-step guide*
-   ```
+   - Clear guidance
+   - Educational support
+   - Confidence building
 
-2. Checking balances:
-   ```
-   User: "What's my balance?"
-   Bot: *Shows current Mode Network balance*
-   ```
+2. Experienced Users
+   - Route optimization
+   - Quick path finding
+   - Best price discovery
 
-## 🔧 Project Structure
-```
-crypto-navigator/
-├── src/
-│   ├── plugins/
-│   │   └── goat/
-│   │       ├── index.ts      # GOAT plugin integration
-│   │       └── wallet.ts     # Wallet configuration
-│   ├── character.ts          # AI agent configuration
-│   └── index.ts             # Main application entry
-├── .env                     # Environment variables
-└── package.json
-```
+## Why Now?
 
-## 🛣 Roadmap
-- [ ] Add support for more networks
-- [ ] Implement cross-chain transfer guides
-- [ ] Add price comparison features
-- [ ] Integrate with more DEXes
-- [ ] Enhance security validations
+With the explosion of new chains and Layer 2s, the need for clear navigation has never been greater. While others focus on abstraction, we focus on education and understanding.
 
-## 🤝 Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
+## Join Us
 
-## 📝 License
-MIT
+We're building the map that will help navigate the future of blockchain. Interested in contributing? We're looking for:
 
-## 🙏 Acknowledgments
-- Mode Network team
-- Eliza Framework
-- GOAT SDK
-- Crossmint
+- Frontend developers
+- Blockchain experts
+- Educational content creators
+- UX designers
 
 ---
-Built with ❤️ for the Mode AI Agent Hackathon 2024
+
+Idea started at Mode AI Agent Hackathon 2024, check [V1](https://github.com/All-Khwarizmi/crypto-navigator/blob/main/README-V1.md)
